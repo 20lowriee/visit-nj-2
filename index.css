@@ -1,0 +1,159 @@
+/*visit nj website styles - index*/
+body {
+background-color: #FFD983;
+}
+ul#nav {
+	background-color: #312d22;
+    list-style:none;
+   	text-align:center; 
+	line-height: 80px;
+	margin: 0 2px;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+}
+li {
+	text-align: center;
+	text-decoration: none;
+}
+li#nav_item {
+	display:inline;
+	color: #ffd983;
+	text-align: center;
+   	padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 3px;
+	color: #ffd983;
+   	text-decoration: none;
+}
+li#nav_title {
+	display: inline;
+	color: #fff9ec;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 5px;
+	color: #fff9ec;
+}
+li a:link {
+    	color: #ffd983;
+	text-decoration: none;
+}
+li a:visited {
+	color: #ffd983;
+	text-decoration: none;
+}
+li a:hover {
+    color: #fff9ec;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 292px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #312d22;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff9ec;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #312d22;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+h1#welcome {
+	color: #261f0c;
+	font-family: "arial black", sans-serif;
+	font-size: 55px;
+	text-align: center;
+}
+h3#explore {
+	color: #312d22;
+	font-family: "arial black", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	line-height: 2%;
+}
+button#go {
+	background-color: #fff9ec;
+	font-family: "arial black", sans-serif;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 45px;
+}
+a:link {
+	color: #312d22;
+	text-decoration: none;
+}
+a:visited {
+	color: #312d22;
+	text-decoration: none;
+}

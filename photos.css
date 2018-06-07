@@ -1,0 +1,104 @@
+/*visit nj website styles - photos*/
+body {
+background-color: #FFD983;
+width:98%
+}
+ul#nav {
+	background-color: #312d22;
+    list-style:none;
+   	text-align:center; 
+	line-height: 80px;
+	margin: 0 2px;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+}
+li {
+	text-align: center;
+	text-decoration: none;
+}
+li#nav_item {
+	display:inline;
+	color: #ffd983;
+	text-align: center;
+   	padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 3px;
+	color: #ffd983;
+   	text-decoration: none;
+}
+li#nav_title {
+	display: inline;
+	color: #fff9ec;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 5px;
+	color: #fff9ec;
+}
+li a:link {
+    	color: #ffd983;
+	text-decoration: none;
+}
+li a:visited {
+	color: #ffd983;
+	text-decoration: none;
+}
+li a:hover {
+    color: #fff9ec;
+}
+h1#heading {
+	margin-top: 125px;
+	background-color: #312d22;
+	color: #fff9ec;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 10px;
+	text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+ img#photos {
+	width: 510px;
+	height: 305px;
+}
+p#photos {
+	margin-left: 25%;
+	color: #312d22;
+	font-size: 14px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+} 
+button#go {
+	background-color: #fff9ec;
+	font-family: "arial black", sans-serif;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 45px;
+}
+a:link {
+	color: #312d22;
+	text-decoration: none;
+}
+a:visited {
+	color: #312d22;
+	text-decoration: none;
+}

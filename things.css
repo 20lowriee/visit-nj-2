@@ -1,0 +1,155 @@
+/*visit nj website styles - history*/
+body {
+	background-color: #FFD983;
+}
+ul#nav {
+	background-color: #312d22;
+    list-style:none;
+   	text-align:center; 
+	line-height: 80px;
+	margin: 0 2px;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+}
+li {
+	text-align: center;
+	text-decoration: none;
+}
+li#nav_item {
+	display:inline;
+	color: #ffd983;
+	text-align: center;
+   	padding: 14px 16px;
+    text-decoration: none;
+	font-size: 20px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 3px;
+	color: #ffd983;
+   	text-decoration: none;
+}
+li#nav_title {
+	display: inline;
+	color: #fff9ec;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 5px;
+	color: #fff9ec;
+}
+li a:link {
+    	color: #ffd983;
+	text-decoration: none;
+}
+li a:visited {
+	color: #ffd983;
+	text-decoration: none;
+}
+li a:hover {
+    color: #fff9ec;
+}
+h1#heading {
+	margin-top: 125px;
+	background-color: #312d22;
+	color: #fff9ec;
+	font-size: 50px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 10px;
+	text-align: center;
+}
+h2#subheading {
+	margin-left: 25px;
+	color: #261f0c;
+	font-size: 35px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2px;
+}
+p#info_top {
+	margin-left: 60px;
+	color: #312d22;
+	font-size: 18px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+	text-align: center;
+}
+ol#places {
+	margin-left: 60px;
+	color: #312d22;
+	font-size: 30px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+}
+ol#places1 {
+	color: #312d22;
+	font-size: 18px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2 px;
+	list-style-type: none;
+}
+img#things {
+	width: 600px;
+	height: 390px;
+}
+	
+h3#table {
+	margin-left: 25px;
+	color: #261f0c;
+	font-size: 35px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+}
+table {
+    width: 75%;
+	border-collapse: collapse; 
+	border: 3px solid #312d22;
+	color: #312d22;
+	font-size: 18px;
+	font-family: "arial black", sans-serif;
+	letter-spacing: 2px;
+} 
+table th, td {
+    padding: 15px;
+    text-align: left;
+} 
+table th {
+    height: 50px;
+    text-align: left;
+	font-family: "arial black", sans-serif;
+} 
+tr#heading {
+	background-color: #312d22;
+	color: #fff9ec;
+}
+tr:nth-child(even) {
+	background-color: #fff9ec;
+} 
+tr:hover {
+	background-color: #312d22;
+	color: #fff9ec
+} 
+button#go {
+	background-color: #fff9ec;
+	font-family: "arial black", sans-serif;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 45px;
+}
+a:link {
+	color: #312d22;
+	text-decoration: none;
+}
+a:visited {
+	color: #312d22;
+	text-decoration: none;
+}
